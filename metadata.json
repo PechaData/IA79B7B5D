@@ -1,0 +1,187 @@
+{
+  "@type": "AnnotationStore",
+  "@id": "IA79B7B5D",
+  "resources": [
+    {
+      "@type": "TextResource",
+      "@id": "f23c",
+      "@include": "base/f23c.txt"
+    }
+  ],
+  "annotationsets": [
+    {
+      "@type": "AnnotationDataSet",
+      "@id": "Meta_Data",
+      "keys": [
+        {
+          "@type": "DataKey",
+          "@id": "id_"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "title"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "author"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "created_at"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "source"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "type"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "language"
+        }
+      ],
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "688c34b54da34397a058f75471dd1770",
+          "key": "id_",
+          "value": {
+            "@type": "String",
+            "value": "12345"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "03726daf79ad475c9cf5e92862510097",
+          "key": "title",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Target Title 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "c4722e8ed6d8455e8ff48f0d12bc05b8",
+          "key": "title",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Target Title 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "248ed1a40a954b79852c88fa7bc04b5a",
+          "key": "author",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Target Author 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "d59bfa29b74a4b78bd38736fd17838f0",
+          "key": "author",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Target Author 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "fd22f75089b04e67b4bcefd712bc7135",
+          "key": "created_at",
+          "value": {
+            "@type": "String",
+            "value": "2024-07-29 15:04:02.912166"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "d35147b824244757822d40f9be2edc58",
+          "key": "source",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Target"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "cc9ca5ad89754abf9821764556bcc9c4",
+          "key": "type",
+          "value": {
+            "@type": "String",
+            "value": "Commentary"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "edc47d47640b47ec9725fec45bf8cf78",
+          "key": "language",
+          "value": {
+            "@type": "String",
+            "value": "Tibetan"
+          }
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "Annotation",
+      "@id": "663f5d464a1944c9920f7b9b7df60d46",
+      "target": {
+        "@type": "ResourceSelector",
+        "resource": "f23c"
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "688c34b54da34397a058f75471dd1770",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "03726daf79ad475c9cf5e92862510097",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "c4722e8ed6d8455e8ff48f0d12bc05b8",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "248ed1a40a954b79852c88fa7bc04b5a",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "d59bfa29b74a4b78bd38736fd17838f0",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "fd22f75089b04e67b4bcefd712bc7135",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "d35147b824244757822d40f9be2edc58",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "cc9ca5ad89754abf9821764556bcc9c4",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "edc47d47640b47ec9725fec45bf8cf78",
+          "set": "Meta_Data"
+        }
+      ]
+    }
+  ]
+}
